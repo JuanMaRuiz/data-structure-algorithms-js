@@ -1,18 +1,26 @@
 ## Sets
 
-Set are very similar to arrays. The main difference is that `Sets` doesn't contains duplicated items.
+A `set` is a data structure that can store any number of **unique** values in any order you so wish. So it's similar to arrays, the may difference is that `Sets` doesn't allow duplicated items.
 
-ES6 has built-in `Sets` data structures but it has not all the methods that
+Acording with mdn documentation:
+
+> The `Set` object lets you store unique values of any type.
+
+ES6 has built-in `Sets` data structures but it has not all the methods that we are going to see in this example. So we will build a new `Set` Class
 
 The basics operations performed in the stack are:
 
-* **Push**.- Adds an item in the stack. If the stack is full, then it is said to be an overflow condition
-* **Pop**.- Removes an item from the stack. If the stack is empty it is said to an underflow condition.
-* **Peek (or Top)**.- Returns top element of the stack.
-* **isEmpty** Returns `true` if stack is empty, else false.
-* **Size**.- Returns the length of the stack.
+* **has**.- This method will check the presence of an element and return `true` of `false`.
+* **values**.- This method will return all the values in the set.
+* **add**.- This method add a new element from the set.
+* **remove**.- This method removes an element from the set.
+* **size**.- This method will return the size of the collection.
+* **union**.- This method will return the union of to sets.
+* **intersection**.- This method will return the intersection of two sets in a new set.
+* **difference**.-  This method will return the difference of two sets in a new set.
+* **subset**.- This method will test if the set is a subset of a difference set.
 
-### How to implement in JS
+### How to implement Set in JS
 
 There is no a stack data structure natively in JS, we use arrays for that purpose, but there are several methods that are not built-in in JS array object.
 

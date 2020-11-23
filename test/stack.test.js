@@ -9,17 +9,10 @@ describe('Stack', () => {
     });
 
     describe('size', () => {
-        it('should return the size of the stack', () => {
-            expect(stack.size()).to.be.equal(0);
-            stack.push(1);
-            expect(stack.size()).to.be.equal(1);
-            stack.push(1);
-            expect(stack.size()).to.be.equal(2);
-        });
+        it('should return the size of the given set');
     });
     describe('push method', () => {
         it('should be a function', () => {
-
             expect(stack.push).to.be.a('function');
         });
         it('should add the passed item at the end of the the stack', () => {

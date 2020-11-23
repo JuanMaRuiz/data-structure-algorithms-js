@@ -2,7 +2,6 @@
   "name": "learn-data-structure-algorithms-js",
   "version": "1.0.0",
   "description": "### Stack",
-  "type": "module",
   "main": "index.js",
   "directories": {
     "test": "test"
